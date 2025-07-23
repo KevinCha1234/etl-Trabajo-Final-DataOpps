@@ -16,7 +16,7 @@ pipeline {
 
         stage('Ejecutar Lectura') {
             steps {
-                sh 'python lecutra.py'
+                sh 'python lectura.py'
             }
         }   
     }
